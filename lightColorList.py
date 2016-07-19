@@ -9,7 +9,9 @@ green = [[0,255,0]] * 64
 blue = [[0,0,255]] * 64
 yellow = [[255,255,0]] * 64
 orange = [[255,140,0]] * 64
-purple = [[255,0,255]] * 64
+purple = [[147,112,219]] * 64
+cyan = [[0,255,255]] * 64
+magenta = [[255,0,255]] * 64
 on = [[255,255,255]] * 64
 
 senseColors = { 'off' : off }
@@ -19,6 +21,8 @@ senseColors['b'] = blue
 senseColors['y'] = yellow
 senseColors['o'] = orange
 senseColors['p'] = purple
+senseColors['c'] = cyan
+senseColors['m'] = magenta
 senseColors['on'] = on
 
 def lightColorList ( colorList ):
